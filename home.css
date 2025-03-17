@@ -1,0 +1,164 @@
+body{
+    overflow-x: hidden;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: deepskyblue;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#header{
+    display: flex;
+    width: 100%;
+    height: 99px;
+    background-color: goldenrod;
+    position: fixed;
+    z-index: 1000;
+    border-radius: 5px;
+}
+#icon img{
+    width: 100px;
+    height: 100px;
+    margin-left: 21px;
+    border-radius: 45px;
+}
+ul{
+    display: flex;
+    margin-left:712px ;
+    align-items: center;
+    margin-top: 32px
+}
+.nav-element{
+    margin: 5px;
+}
+#welcome{
+    height: 500px;
+    background-image: url('Untitled\ design\ \(1\).png');
+}
+#img-txt{
+    text-align: center;
+    font-size: 26px;
+    padding-top: 265px;
+}
+#name-popular{
+    font-size: 24px;
+}
+.pop{
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    margin: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+.pop:hover{
+    box-shadow: 2px 8px 16px rgba(0, 0, 0, 0.3);
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+img{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+}
+.pop-des{
+    font-size: 43px;
+    text-align: center;
+}
+.pop-des-name{
+    text-align: right;
+}
+#container{
+    display: flex;
+    animation: slide 15s linear infinite;
+    animation-play-state: running;
+}
+#container:hover{
+    animation-play-state: paused;
+}
+@keyframes slide {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translate(-100%);
+    }
+    
+}
+.des{
+    margin-top: -322px;
+    opacity: 0;
+}
+.p-pop:hover .des{
+    opacity: 1;
+}
+#Categories{
+    font-size: 24px;
+}
+#option{
+    display: flex;
+}
+#veg{
+    display: flex;
+    
+}
+#non-veg{
+    display: flex;
+    
+}
+#opt-veg{
+    display: block;
+}
+#opt-non-veg{
+  display: none;
+}
+#feedback-name{
+    font-size: 23px;
+}
+.form{
+    font-size: 23px;
+}
+.form:hover{
+    font-size:25px ;
+}
+#form-name{
+    margin-left: 351px;
+
+}
+#form-email{
+    margin-left: 37px;
+}
+#form-message{
+    margin-left: 352px;
+    margin-top: 16px;
+}
+#btn{
+    margin-left: 70px;
+    font-size: 25px;
+}
+#footer{
+    width: 100%;
+    height: 300px;
+    background-color: gray;
+}
+.footer-link img{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 675px;
+}
+#footer-text{
+    margin-left: 675px;
+    font-size: 26px;
+    box-shadow: 0 5px 1px 1px rgba(0, 0, 0, 0.2);
+    width: 133px;
+}
+.footer-link{
+   margin-top: 10px;
+   margin-left: 123px;
+}
